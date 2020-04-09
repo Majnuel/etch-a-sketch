@@ -1,10 +1,10 @@
-.grid {
+.gridStyle {
     border-style: solid;
     border-color: black;
     border-width: 1px;
     margin-left: 50%;
     width: 30px;
-    height: 30px
+    height: 30px;
 }
 
 .title {

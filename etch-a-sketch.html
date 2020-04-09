@@ -19,10 +19,13 @@
 
 <script>
 
-    const container = document.querySelector("#grid-container");
-    const grid = document.createElement("div");
-    grid.classList.add("grid");
-    container.appendChild(grid);
+    
+
+    for ( i=0 ; i<10 ; i++ ) {
+        var grid = document.createElement("div");
+        grid.classList.add("gridStyle");
+        document.getElementById('grid-container').appendChild(grid);
+    }
 
 </script>
 
