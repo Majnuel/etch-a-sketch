@@ -4,20 +4,22 @@
     border-width: 3px;
     border-style: solid;
     border-radius: 1%;
-    width: 1000px;
+    width: 960px;
+    height: 960px;
     position: relative;
     margin: auto;
     display: grid;
-    grid-template-columns: auto-fill, minmax(60px, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
 }
 
 .gridStyle {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    margin-left: 50%;
-    width: 30px;
-    height: 30px;
+}
+.gridStyle:hover {
+    background-color: black;
 }
 
 .title {
