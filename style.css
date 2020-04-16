@@ -1,3 +1,16 @@
+#grid-container {
+    background-color: darkgray;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1%;
+    width: 1000px;
+    position: relative;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto-fill, minmax(60px, 1fr);
+}
+
 .gridStyle {
     border-style: solid;
     border-color: black;
