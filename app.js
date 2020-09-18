@@ -14,16 +14,6 @@ function toMediumGrid() {
 }
 toMediumGrid();
 
-//blackout on hover (change class to 'moused')
-// function trail() {
-//   let cellArray = document.querySelectorAll('.gridStyle');
-//   for (let cell of cellArray) {
-//     cell.addEventListener('mouseover', function() {this.style.backgroundColor = getColor(); });
-//   }
-// }
-// trail()
-// console.log(document.getElementById('black').checked);
-
 function trail() {
   let cellArray = document.querySelectorAll('.gridStyle');
   for (let cell of cellArray) {
